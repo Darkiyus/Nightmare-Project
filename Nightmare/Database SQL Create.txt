@@ -1,0 +1,57 @@
+CREATE TABLE Nightmare_User_Login (
+    ID int,
+    Username varchar(32),
+    Password varchar(100)
+   
+);
+
+CREATE TABLE Nightmare_User_Data (
+	Nightmare_User_Login_ID int,
+	E_Mail varchar(64),
+	Created date,
+	Rank int,
+	Buyed boolean,
+	LastPayment date,
+	LastPaymentOptions int
+    
+);
+
+CREATE TABLE Nightmare_User_Avatar_Favorits (
+	Nightmare_User_Login_ID int,
+	Avatar_ID varchar(41)
+);
+
+CREATE TABLE VRChat_Accounts (
+	Nightmare_User_Login_ID int,
+	VRC_ID varchar(40)
+);
+
+INSERT INTO Nightmare_User_Login (ID, Username, Password)
+VALUES (0, "Darkiyus",  "40Kk3ktdL9M7OEYRH8YVfDscmZCYkIk0qp6jS0dJ7EtHfnVjmfdE6fgDN5FVaBB8lgj1nXH4UVvxy18bn9iJ2dkIdc16Mh3wml3C");
+
+INSERT INTO Nightmare_User_Data 
+VALUES (0, "darkiyus@nightmare-client.de", "06-11-2021", 5, TRUE, "06-11-2021", 3 );
+
+INSERT INTO VRChat_Accounts
+VALUES (0, "usr_ba1c109f-63b4-4fb0-9e61-82c8a3a4b21e");
+
+
+
+
+
+
+
+Rang:
+
+0 - Not Acess
+1 - Light
+2 - Premium
+3 - Privat
+4 - Admin
+5 - Owner
+
+PaymentMethode:
+0 - Trial
+1 - Month
+2 - Year
+3 - Lifetime
