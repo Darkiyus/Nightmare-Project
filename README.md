@@ -51,8 +51,6 @@ and much more...
 Extra!
 - A Nightmare email address with Web Portal
 - Password manager powered by passbolt
-- 20% discount code for one of your friends
-- Preferred support
 
 # Database
 based on MariaDB
