@@ -1,6 +1,6 @@
 # Nightmare-Project
 Nightmare was supposed to be an all-in-one client for VRChat, which was discontinued because it was no longer useful.
-(Financially too low and I stopped playing VRC myself).
+(I stopped playing VRC myself).
 
 # Special Features
 
